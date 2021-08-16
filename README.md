@@ -18,7 +18,7 @@ Looking forward to your contribution!
 | 2019 | Probabilistic Neural-Symbolic Models for Interpretable Visual Question Answering | ICML  | [Link](https://arxiv.org/abs/1902.07864) | [Link](https://github.com/kdexd/probnmn-clevr) | The author proposed **ProbNMN**, using variational method to generate reasoning graph. |
 | 2019 | Explainable and Explicit Visual Reasoning over Scene Graphs | CVPR ||| **XNM**, N2NMN + scene graph|
 | 2019 | Learning to Assemble Neural Module Tree Networks for Visual Grounding | ICCV ||| **NMTree**, parser-NMN application|
-| 2019 | Structure Learning for Neural Module Networks | arxiv? ||| **LNMN**, NMN + jointly learn modules + structure|
+| 2019 | Structure Learning for Neural Module Networks | EACL? ||| **LNMN**, NMN + jointly learn modules + structure|
 | 2018 | Explainable Neural Computation via Stack Neural Module Networks | ECCV ||| **Stack-NMN**, N2NMN + differentiable memory stack + soft program execution |
 | 2018 | Neural-Symbolic VQA: Disentangling Reasoning from Vision and Language Understanding | arxiv? ||| **NS-VQA**, N2NMN + scene graph|
 | 2018 | Compositional Models for VQA: Can Neural Module Networks Really Count? |||| interesting (negative) result of N2NMN |
