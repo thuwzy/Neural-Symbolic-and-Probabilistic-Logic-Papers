@@ -13,8 +13,12 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 ## Surveys
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
-| 2020 | Graph Neural Networks Meet Neural-Symbolic Computing: A Survey and Perspective | IJCAI | [Link](https://www.ijcai.org/Proceedings/2020/0679.pdf) | - | A Survey on Neural-Symbolic with GNN |
-| 2017 | Neural-Symbolic Learning and Reasoning: A Survey and Interpretation | arXiv | [Link](https://arxiv.org/pdf/1711.03902.pdf) | - | This joint survey reviews the personal ideas and views of several researchers on neural-symbolic learning and reasoning. |
+| 2021 | Neural, Symbolic and Neural-Symbolic Reasoning on Knowledge Graphs | AI Open | [Link](https://arxiv.org/abs/2010.05446) | - | Take a thorough look at the development of the symbolic, neural and hybrid reasoning on knowledge graphs. |
+| 2020 | From Statistical Relational to Neuro-Symbolic Artificial Intelligence | IJCAI | [Link](https://www.ijcai.org/Proceedings/2020/0688.pdf) | - | This survey identifies several parallels across seven different dimensions between these two fields. |
+| 2020 | Symbolic Logic meets Machine Learning: A Brief Survey in Infinite Domains | SUM | [Link](https://arxiv.org/abs/2006.08480) | - | Survey work that provides further evidence for the connections between logic and learning. |
+| 2020 | Graph Neural Networks Meet Neural-Symbolic Computing: A Survey and Perspective | IJCAI | [Link](https://www.ijcai.org/Proceedings/2020/0679.pdf) | - | A Survey on Neural-Symbolic with GNN. |
+| 2017 | Neural-Symbolic Learning and Reasoning: A Survey and Interpretation | arXiv | [Link](https://arxiv.org/pdf/1711.03902.pdf) | - | Reviews personal ideas and views of several researchers on neural-symbolic learning and reasoning. |
+| 2005 | Dimensions of Neural-symbolic Integration — A Structured Survey | arXiv | [Link](https://arxiv.org/abs/cs/0511042) | - | This work presents a comprehensive survey of the field of neural-symbolic integration. |
 ## Neural Modular Networks Papers
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
