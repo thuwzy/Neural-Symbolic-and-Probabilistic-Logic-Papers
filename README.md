@@ -1,13 +1,19 @@
-# Neural Module Networks Literature
+# Neural Symbolic and Probabilistic Logic Papers
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A curated list of papers on neural module networks. Inspired by [this repo](https://github.com/safe-graph/graph-adversarial-learning-literature).
+A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by [this repo](https://github.com/safe-graph/graph-adversarial-learning-literature). Papers are sorted by their uploaded dates in descending order. Each paper is with a description of a few words. Looking forward to your contribution!
 
-Papers are sorted by their uploaded dates in descending order. Each paper is with a description of a few words.
+**\[Taxonomy\]** We devide papers into several sub-areas, including
 
-Looking forward to your contribution!
+* **Surveys** on Neural Symbolic and Probabilistic Logic
+* Neural Modular Networks
+* Neural-Enhanced Logic
 
+## Surveys
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+## Neural Modular Networks Papers
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2021 | Meta Module Network for Compositional Visual Reasoning | WACV ||| N2NMN application|
