@@ -7,8 +7,11 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 **\[Taxonomy\]** We devide papers into several sub-areas, including
 
 * **Surveys** on Neural Symbolic and Probabilistic Logic
-* Neural Modular Networks
-* Neural-Enhanced Logic
+* Neural-Enhanced Symbolic Logic (Neural Symbolic)
+* Logic-Enhanced Neural Networks (Neural Symbolic)
+  - Neural Modular Networks
+* Probablity-Enhanced Logic (Probabilistic Logic)
+* Logic-Enhanced Probability (Probabilistic Logic)
 
 ## Surveys
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
