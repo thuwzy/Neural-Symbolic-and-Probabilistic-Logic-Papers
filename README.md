@@ -9,7 +9,9 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 * **Surveys** on Neural Symbolic and Probabilistic Logic
 * Logic-Enhanced Neural Networks (Neural Symbolic)
   - Neural Modular Networks
+  - Logic as Regulizer
 * Neural-Enhanced Symbolic Logic (Neural Symbolic)
+  - Neural Logic Programming
 * Logic-Enhanced Probability (Probabilistic Logic)
 * Probablity-Enhanced Logic (Probabilistic Logic)
 
