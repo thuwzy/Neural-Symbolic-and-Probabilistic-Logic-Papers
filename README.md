@@ -28,6 +28,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2020 | Symbolic, Distributed and Distributional Representations for Natural Language Processing in the Era of Deep Learning: a Survey | Frontiers in Robotics and AI | [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7805717/) | In this paper we make a survey that aims to renew the link between symbolic representations and distributed/distributional representations. |
 | 2017 | Neural-Symbolic Learning and Reasoning: A Survey and Interpretation | arXiv | [Link](https://arxiv.org/pdf/1711.03902.pdf) | Reviews personal ideas and views of several researchers on neural-symbolic learning and reasoning. |
 | 2005 | Dimensions of Neural-symbolic Integration — A Structured Survey | arXiv | [Link](https://arxiv.org/abs/cs/0511042) | This work presents a comprehensive survey of the field of neural-symbolic integration. |
+
 ## Neural Modular Networks Papers
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
@@ -53,10 +54,24 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 ## Neural Logic
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2020 | Closed Loop Neural-Symbolic Learning via Integrating Neural Perception, Grammar Parsing, and Symbolic Reasoning | ICML | [Paper](https://liqing-ustc.github.io/NGS/) | [Code](https://github.com/liqing-ustc/NGS) | NGS, (1) introducing the grammar model as a symbolic prior, (2) proposing a novel back-search algorithm to propagate the error through the symbolic reasoning module efficiently. |
+| 2018 | Lifted relational neural networks: Efficient learning of latent relational structures. | JAIR | [Paper](http://oucsace.cs.ohio.edu/~chelberg/classes/680/paperPresentations/lifted_relational_neural_networks.pdf) | | Combine the interpretability and expressive power of first order logic with the effectiveness of neural network learning. |
+| 2017 | Differentiable Learning of Logical Rules for Knowledge Base Reasoning | NeurIPS | [Paper](https://proceedings.neurips.cc/paper/2017/file/0e55666a4ad822e0e34299df3591d979-Paper.pdf) | [Code](https://github.com/fanyangxyz/Neural-LP) | Neural Logic Programming, learning probabilistic first-order logical rules for knowledge base reasoning in end-to-end model. |
+
+
+### Differential Logic
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2019 | Synthesizing datalog programs using numerical relaxation. | IJCAI | [Paper](https://arxiv.org/abs/1906.00163) | [Code](https://github.com/petablox/difflog) | Differential Datalog |
 | 2018 | Learning Explanatory Rules from Noisy Data | JAIR | [Paper](https://arxiv.org/abs/1711.04574v2) | [Code](https://github.com/ai-systems/DILP-Core) | Differentiable ILP |
-| 2018 | Lifted relational neural networks: Efficient learning of latent relational structures. | JAIR | [Paper](http://oucsace.cs.ohio.edu/~chelberg/classes/680/paperPresentations/lifted_relational_neural_networks.pdf) | | Combine the interpretability and expressive power of first order logic with the effectiveness of neural network learning. |
-## Logic as Regularizer
+
+### Parameterize Logic with Neural Networks
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2020 | NeurASP: Embracing Neural Networks into Answer Set Programming | IJCAI | [Paper](https://www.ijcai.org/Proceedings/2020/243) | [Code](https://github.com/azreasoners/NeurASP) | NeurASP, a simple extension of answer set programs by embracing neural networks. |
+| 2018 | DeepProbLog: Neural Probabilistic Logic Programming | NeurIPS | [Paper](https://papers.nips.cc/paper/2018/file/dc5d637ed5e62c36ecb73b654b05ba2a-Paper.pdf) | [Code](https://github.com/ML-KULeuven/deepproblog) | Add "neural predicates" to ProbLog which is a probabilistic logic programming language. |
+
+### Logic as Regularizer
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2017 | Logic tensor networks for semantic image interpretation. | IJCAI | [Paper](https://arxiv.org/abs/1705.08968) | [Code](https://gitlab.fbk.eu/donadello/LTN_IJCAI17) | Logic Tensor Networks (LTNs) are an SRL framework which integrates neural networks with first-order fuzzy logic. |
