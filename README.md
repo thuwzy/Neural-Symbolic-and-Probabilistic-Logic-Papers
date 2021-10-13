@@ -14,6 +14,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
   - Neural Logic Programming
 * Logic-Enhanced Probability (Probabilistic Logic)
 * Probablity-Enhanced Logic (Probabilistic Logic)
+* Theoretical Papers
 
 ## Surveys
 | Year | Title                  | Venue | Paper                                      | Description                                                  |
