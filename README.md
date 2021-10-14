@@ -15,6 +15,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 * Logic-Enhanced Probability (Probabilistic Logic)
 * Probablity-Enhanced Logic (Probabilistic Logic)
 * Theoretical Papers
+* Tasks
 
 ## Surveys
 | Year | Title                  | Venue | Paper                                      | Description                                                  |
@@ -54,6 +55,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 ## Neural Logic
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2021 | Neural-Symbolic Integration: A Compositional Perspective | AAAI | [Paper](https://www.aaai.org/AAAI21Papers/AAAI-10094.TsamouraE.pdf) |  | Treating Neural and Symbolic as black boxes to be integrated, without making assumptions on their internal structure and semantics. |
 | 2020 | Closed Loop Neural-Symbolic Learning via Integrating Neural Perception, Grammar Parsing, and Symbolic Reasoning | ICML | [Paper](https://liqing-ustc.github.io/NGS/) | [Code](https://github.com/liqing-ustc/NGS) | NGS, (1) introducing the grammar model as a symbolic prior, (2) proposing a novel back-search algorithm to propagate the error through the symbolic reasoning module efficiently. |
 | 2018 | Lifted relational neural networks: Efficient learning of latent relational structures. | JAIR | [Paper](http://oucsace.cs.ohio.edu/~chelberg/classes/680/paperPresentations/lifted_relational_neural_networks.pdf) | | Combine the interpretability and expressive power of first order logic with the effectiveness of neural network learning. |
 | 2017 | Differentiable Learning of Logical Rules for Knowledge Base Reasoning | NeurIPS | [Paper](https://proceedings.neurips.cc/paper/2017/file/0e55666a4ad822e0e34299df3591d979-Paper.pdf) | [Code](https://github.com/fanyangxyz/Neural-LP) | Neural Logic Programming, learning probabilistic first-order logical rules for knowledge base reasoning in end-to-end model. |
@@ -77,3 +79,6 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2017 | Logic tensor networks for semantic image interpretation. | IJCAI | [Paper](https://arxiv.org/abs/1705.08968) | [Code](https://gitlab.fbk.eu/donadello/LTN_IJCAI17) | Logic Tensor Networks (LTNs) are an SRL framework which integrates neural networks with first-order fuzzy logic. |
 
+# Tasks
+* Visual Question Answering
+* Knowledge Graph Reasoning
