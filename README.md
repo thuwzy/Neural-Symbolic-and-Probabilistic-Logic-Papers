@@ -2,7 +2,7 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by [this repo](https://github.com/safe-graph/graph-adversarial-learning-literature). Papers are sorted by their uploaded dates in descending order. Each paper is with a description of a few words. Looking forward to your contribution!
+A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by [this repo](https://github.com/safe-graph/graph-adversarial-learning-literature). Papers are sorted by their uploaded dates in descending order. Each paper is with a description of a few words. Welcome to your contribution!
 
 **\[Taxonomy\]** We devide papers into several sub-areas, including
 
@@ -56,6 +56,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2021 | Neural-Symbolic Integration: A Compositional Perspective | AAAI | [Paper](https://www.aaai.org/AAAI21Papers/AAAI-10094.TsamouraE.pdf) |  | Treating Neural and Symbolic as black boxes to be integrated, without making assumptions on their internal structure and semantics. |
+| 2020 | Relational Neural Machines | ECAI | [Paper](https://arxiv.org/abs/2002.02193) | | Relational Neural Machines, a novel framework allowing to jointly train the parameters of the learners and of a First–Order Logic based reasoner. |
 | 2020 | Closed Loop Neural-Symbolic Learning via Integrating Neural Perception, Grammar Parsing, and Symbolic Reasoning | ICML | [Paper](https://liqing-ustc.github.io/NGS/) | [Code](https://github.com/liqing-ustc/NGS) | NGS, (1) introducing the grammar model as a symbolic prior, (2) proposing a novel back-search algorithm to propagate the error through the symbolic reasoning module efficiently. |
 | 2019 | NLProlog: Reasoning with Weak Unification for Question Answering in Natural Language | ACL | [Paper](https://arxiv.org/abs/1906.06187) |  | A Prolog prover which we extend to utilize a similarity function over pretrained sentence encoders. |
 | 2018 | Lifted relational neural networks: Efficient learning of latent relational structures. | JAIR | [Paper](http://oucsace.cs.ohio.edu/~chelberg/classes/680/paperPresentations/lifted_relational_neural_networks.pdf) | | Combine the interpretability and expressive power of first order logic with the effectiveness of neural network learning. |
