@@ -80,9 +80,15 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 ### Logic as Regularizer
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2018 | A Semantic Loss Function for Deep Learning with Symbolic Knowledge | ICML | [Paper](https://arxiv.org/pdf/1711.11157.pdf) | [Code](https://github.com/UCLA-StarAI/Semantic-Loss/) | Semantic Loss, a continuous regularizer of logic prior. |
 | 2017 | Logic tensor networks for semantic image interpretation. | IJCAI | [Paper](https://arxiv.org/abs/1705.08968) | [Code](https://gitlab.fbk.eu/donadello/LTN_IJCAI17) | Logic Tensor Networks (LTNs) are an SRL framework which integrates neural networks with first-order fuzzy logic. |
 
 # Tasks
 * Visual Question Answering
 * Knowledge Graph Reasoning
 * Question Answering in Natural Language: MedHop, WikiHop
+
+# Groups
+* [UCLA StarAI Lab](http://starai.cs.ucla.edu/)
+* [Luc De Raedt @ KU Leuven](https://wms.cs.kuleuven.be/people/lucderaedt/)
+* [Jian Tang @ Mila](https://tangjianpku.github.io/)
