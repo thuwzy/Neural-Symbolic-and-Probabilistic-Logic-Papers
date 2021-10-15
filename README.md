@@ -60,6 +60,10 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2016 | Learning to Compose Neural Networks for Question Answering | NAACL  | [Paper](https://arxiv.org/abs/1601.01705) | [Code](https://github.com/jacobandreas/nmn2) | Compared to original NMN, the authors add a layout selector to select layout from several proposed candidates. |
 | 2016 | Neural Module Networks | CVPR  | [Paper](https://arxiv.org/abs/1511.02799v4) | [Code](https://github.com/jacobandreas/nmn2) | Initial paper. The authors proposed Neural Module Networks in this paper. |
 
+## Natural Language Question Answering
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2020 | Measuring Compositional Generalization: A Comprehensive Method on Realistic Data | ICLR | [Paper](https://arxiv.org/abs/1912.09713) | [Code](https://github.com/google-research/google-research/tree/master/cfq) | CFQ, a large dataset of Natural Language Question Answering |
 
 ## Deep Logic
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
@@ -95,6 +99,10 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2017 | Logic tensor networks for semantic image interpretation. | IJCAI | [Paper](https://arxiv.org/abs/1705.08968) | [Code](https://gitlab.fbk.eu/donadello/LTN_IJCAI17) | Logic Tensor Networks (LTNs) are an SRL framework which integrates neural networks with first-order fuzzy logic. |
 | 2017 | Semantic-based regularization for learning and inference | Artificial Intelligence | [Paper](https://www.sciencedirect.com/science/article/pii/S0004370215001344) | | A Regularizer using fuzzy logic. |
 
+## Miscellaneous
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2020 | WHAT CAN NEURAL NETWORKS REASON ABOUT? | ICLR | [Paper](https://arxiv.org/pdf/1905.13211.pdf) | | How NN structured correlates with the performance on different reasoning tasks. |
 ## Tasks
 * Visual Question Answering
 * Knowledge Graph Reasoning
