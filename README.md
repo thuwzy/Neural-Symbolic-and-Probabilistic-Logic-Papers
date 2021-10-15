@@ -68,6 +68,8 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2019 | Synthesizing datalog programs using numerical relaxation. | IJCAI | [Paper](https://arxiv.org/abs/1906.00163) | [Code](https://github.com/petablox/difflog) | Differential Datalog |
 | 2018 | Learning Explanatory Rules from Noisy Data | JAIR | [Paper](https://arxiv.org/abs/1711.04574v2) | [Code](https://github.com/ai-systems/DILP-Core) | Differentiable ILP |
+| 2017 | TensorLog: Deep Learning Meets Probabilistic Databases | arXiv | [Paper](https://arxiv.org/pdf/1707.05390.pdf) | [Code](https://github.com/TeamCohen/TensorLog) | Relax Boolean truth value to \[0,1\] |
+
 
 ### Parameterize Logic with Neural Networks
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
