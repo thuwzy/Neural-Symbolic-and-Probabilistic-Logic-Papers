@@ -26,7 +26,8 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2020 | From Statistical Relational to Neuro-Symbolic Artificial Intelligence | IJCAI | [Paper](https://www.ijcai.org/Proceedings/2020/0688.pdf) | This survey identifies several parallels across seven different dimensions between these two fields. |
 | 2020 | Symbolic Logic meets Machine Learning: A Brief Survey in Infinite Domains | SUM | [Paper](https://arxiv.org/abs/2006.08480) | Survey work that provides further evidence for the connections between logic and learning. |
 | 2020 | Graph Neural Networks Meet Neural-Symbolic Computing: A Survey and Perspective | IJCAI | [Paper](https://www.ijcai.org/Proceedings/2020/0679.pdf) | A Survey on Neural-Symbolic with GNN. |
-| 2020 | Symbolic, Distributed and Distributional Representations for Natural Language Processing in the Era of Deep Learning: a Survey | Frontiers in Robotics and AI | [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7805717/) | In this paper we make a survey that aims to renew the link between symbolic representations and distributed/distributional representations. |
+| 2020 | Symbolic, Distributed and Distributional Representations for Natural Language Processing in the Era of Deep Learning: a Survey | Frontiers in Robotics and AI | [Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7805717/) | In this paper we make a survey that aims to renew the link between symbolic representations and distributed/distributional representations. |
+| 2019 | Neural-symbolic computing: An effective methodology for principled integration of machine learning and reasoning | Journal of Applied Logic | [Paper](https://arxiv.org/pdf/1905.06088.pdf) | We survey recent accomplishments of neural-symbolic computing as a principled methodology for integrated machine learning and reasoning. | 
 | 2017 | Neural-Symbolic Learning and Reasoning: A Survey and Interpretation | arXiv | [Paper](https://arxiv.org/pdf/1711.03902.pdf) | Reviews personal ideas and views of several researchers on neural-symbolic learning and reasoning. |
 | 2011 | Statistical Relational AI: Logic, Probability and Computation | ICLP | [Paper](https://www.cs.ubc.ca/~poole/papers/SRAI-2011.pdf) | We overview the foundations of StarAI. |
 | 2005 | Dimensions of Neural-symbolic Integration — A Structured Survey | arXiv | [Paper](https://arxiv.org/abs/cs/0511042) | This work presents a comprehensive survey of the field of neural-symbolic integration. |
@@ -35,6 +36,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2019 | The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision | ICLR | [Paper](https://arxiv.org/pdf/1904.12584.pdf) | [Code](https://github.com/vacancy/NSCL-PyTorch-Release) | Neuro-Symbolic Concept Learner in VQA |
+| 2019 | Learning by Abstraction: The Neural State Machine | NeurIPS | [Paper](https://arxiv.org/abs/1907.03950) | | Given an image, we first predict a probabilistic graph then perform sequential reasoning over the graph. |
 
 ### Neural Modular Networks
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
@@ -43,20 +45,20 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2020 | Neural Module Networks for Reasoning over Text | ICLR ||| **TMN**, parser-NMN application|
 | 2020 | Learning to Discretely Compose Reasoning Module Networks for Video Captioning | arXiv ||| **RMN**, N2NMN application|
 | 2020 | LRTA: A Transparent Neural-symbolic Reasoning Framework with Modular Supervision for VQA | arXiv ||| N2NMN application|
-| 2019 | Self-Assembling Modular Networks for Interpretable Multi-hop Reasoning | arXiv | [Link](https://arxiv.org/abs/1909.05803) | [Link](https://github.com/jiangycTarheel/NMN-MultiHopQA) | N2NMN application|
-| 2019 | Probabilistic Neural-Symbolic Models for Interpretable Visual Question Answering | ICML  | [Link](https://arxiv.org/abs/1902.07864) | [Link](https://github.com/kdexd/probnmn-clevr) | The author proposed **ProbNMN**, using variational method to generate reasoning graph. |
+| 2019 | Self-Assembling Modular Networks for Interpretable Multi-hop Reasoning | arXiv | [Paper](https://arxiv.org/abs/1909.05803) | [Code](https://github.com/jiangycTarheel/NMN-MultiHopQA) | N2NMN application|
+| 2019 | Probabilistic Neural-Symbolic Models for Interpretable Visual Question Answering | ICML  | [Paper](https://arxiv.org/abs/1902.07864) | [Code](https://github.com/kdexd/probnmn-clevr) | The author proposed **ProbNMN**, using variational method to generate reasoning graph. |
 | 2019 | Explainable and Explicit Visual Reasoning over Scene Graphs | CVPR ||| **XNM**, N2NMN + scene graph|
 | 2019 | Learning to Assemble Neural Module Tree Networks for Visual Grounding | ICCV ||| **NMTree**, parser-NMN application|
 | 2019 | Structure Learning for Neural Module Networks | EACL ||| **LNMN**, follows Stack-NMN to add learnable (soft) modules|
 | 2018 | Explainable Neural Computation via Stack Neural Module Networks | ECCV ||| **Stack-NMN**, N2NMN + differentiable memory stack + soft program execution |
 | 2018 | Neural-Symbolic VQA: Disentangling Reasoning from Vision and Language Understanding | arXiv ||| **NS-VQA**, N2NMN + scene graph|
-| 2018 | Compositional Models for VQA: Can Neural Module Networks Really Count? | BICA | [Link](https://www.sciencedirect.com/science/article/pii/S1877050918323986) || interesting (negative) result of N2NMN |
-| 2018 | Transparency by Design: Closing the Gap between Performance and Interpretability in Visual Reasoning | CVPR | [Link](https://openaccess.thecvf.com/content_cvpr_2018/papers/Mascharka_Transparency_by_Design_CVPR_2018_paper.pdf) || **TbD**, soft modules / structures|
-| 2018 | Visual Question Reasoning on General Dependency Tree | CVPR | [Link](https://openaccess.thecvf.com/content_cvpr_2018/papers/Cao_Visual_Question_Reasoning_CVPR_2018_paper.pdf) || **ACMN**, parser-NMN (DPT -> structure)|
-| 2017 | Learning to Reason: End-To-End Module Networks for Visual Question Answering | ICCV | [Link](https://openaccess.thecvf.com/content_ICCV_2017/papers/Hu_Learning_to_Reason_ICCV_2017_paper.pdf) || **N2NMN**|
+| 2018 | Compositional Models for VQA: Can Neural Module Networks Really Count? | BICA | [Paper](https://www.sciencedirect.com/science/article/pii/S1877050918323986) || interesting (negative) result of N2NMN |
+| 2018 | Transparency by Design: Closing the Gap between Performance and Interpretability in Visual Reasoning | CVPR | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Mascharka_Transparency_by_Design_CVPR_2018_paper.pdf) || **TbD**, soft modules / structures|
+| 2018 | Visual Question Reasoning on General Dependency Tree | CVPR | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Cao_Visual_Question_Reasoning_CVPR_2018_paper.pdf) || **ACMN**, parser-NMN (DPT -> structure)|
+| 2017 | Learning to Reason: End-To-End Module Networks for Visual Question Answering | ICCV | [Paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Hu_Learning_to_Reason_ICCV_2017_paper.pdf) || **N2NMN**|
 | 2017 | Inferring and Executing Programs for Visual Reasoning | ICCV ||| Basically N2NMN which refers N2NMN as "concurrent work" |
-| 2016 | Learning to Compose Neural Networks for Question Answering | NAACL  | [Link](https://arxiv.org/abs/1601.01705) | [Link](https://github.com/jacobandreas/nmn2) | Compared to original NMN, the authors add a layout selector to select layout from several proposed candidates. |
-| 2016 | Neural Module Networks | CVPR  | [Link](https://arxiv.org/abs/1511.02799v4) | [Link](https://github.com/jacobandreas/nmn2) | Initial paper. The authors proposed Neural Module Networks in this paper. |
+| 2016 | Learning to Compose Neural Networks for Question Answering | NAACL  | [Paper](https://arxiv.org/abs/1601.01705) | [Code](https://github.com/jacobandreas/nmn2) | Compared to original NMN, the authors add a layout selector to select layout from several proposed candidates. |
+| 2016 | Neural Module Networks | CVPR  | [Paper](https://arxiv.org/abs/1511.02799v4) | [Code](https://github.com/jacobandreas/nmn2) | Initial paper. The authors proposed Neural Module Networks in this paper. |
 
 
 ## Deep Logic
