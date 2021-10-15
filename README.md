@@ -31,7 +31,12 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2011 | Statistical Relational AI: Logic, Probability and Computation | ICLP | [Paper](https://www.cs.ubc.ca/~poole/papers/SRAI-2011.pdf) | We overview the foundations of StarAI. |
 | 2005 | Dimensions of Neural-symbolic Integration — A Structured Survey | arXiv | [Paper](https://arxiv.org/abs/cs/0511042) | This work presents a comprehensive survey of the field of neural-symbolic integration. |
 
-## Neural Modular Networks Papers
+## Visual Question Answering
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2019 | The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision | ICLR | [Paper](https://arxiv.org/pdf/1904.12584.pdf) | [Code](https://github.com/vacancy/NSCL-PyTorch-Release) | Neuro-Symbolic Concept Learner in VQA |
+
+### Neural Modular Networks
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2021 | Meta Module Network for Compositional Visual Reasoning | WACV ||| N2NMN application|
@@ -53,7 +58,8 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2016 | Learning to Compose Neural Networks for Question Answering | NAACL  | [Link](https://arxiv.org/abs/1601.01705) | [Link](https://github.com/jacobandreas/nmn2) | Compared to original NMN, the authors add a layout selector to select layout from several proposed candidates. |
 | 2016 | Neural Module Networks | CVPR  | [Link](https://arxiv.org/abs/1511.02799v4) | [Link](https://github.com/jacobandreas/nmn2) | Initial paper. The authors proposed Neural Module Networks in this paper. |
 
-## Neural Logic
+
+## Deep Logic
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2021 | Neural-Symbolic Integration: A Compositional Perspective | AAAI | [Paper](https://www.aaai.org/AAAI21Papers/AAAI-10094.TsamouraE.pdf) |  | Treating Neural and Symbolic as black boxes to be integrated, without making assumptions on their internal structure and semantics. |
@@ -87,12 +93,12 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2017 | Logic tensor networks for semantic image interpretation. | IJCAI | [Paper](https://arxiv.org/abs/1705.08968) | [Code](https://gitlab.fbk.eu/donadello/LTN_IJCAI17) | Logic Tensor Networks (LTNs) are an SRL framework which integrates neural networks with first-order fuzzy logic. |
 | 2017 | Semantic-based regularization for learning and inference | Artificial Intelligence | [Paper](https://www.sciencedirect.com/science/article/pii/S0004370215001344) | | A Regularizer using fuzzy logic. |
 
-# Tasks
+## Tasks
 * Visual Question Answering
 * Knowledge Graph Reasoning
 * Question Answering in Natural Language: MedHop, WikiHop
 
-# Groups
+## Groups
 * [UCLA StarAI Lab](http://starai.cs.ucla.edu/)
 * [Luc De Raedt @ KU Leuven](https://wms.cs.kuleuven.be/people/lucderaedt/)
 * [Jian Tang @ Mila](https://tangjianpku.github.io/)
