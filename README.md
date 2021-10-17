@@ -92,6 +92,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2021 | Neural Markov Logic Networks | UAI | [Paper](https://arxiv.org/abs/1905.13462) | [Code](https://github.com/GiuseppeMarra/nmln/tree/uai2021) | NMLNs are an exponential-family model for modelling distributions over possible worlds without explicit logic rules. |
 | 2020 | NeurASP: Embracing Neural Networks into Answer Set Programming | IJCAI | [Paper](https://www.ijcai.org/Proceedings/2020/243) | [Code](https://github.com/azreasoners/NeurASP) | NeurASP, a simple extension of answer set programs by embracing neural networks. |
 | 2019 | Neural Logic Machines | ICLR | [Paper](https://arxiv.org/abs/1904.11694) | [Code](https://github.com/google/neural-logic-machines) | Logic predicates as tensors, logic rules as neural operators. |
+| 2019 | DeepLogic: Towards End-to-End Differentiable Logical Reasoning | AAAI-MAKE | [Paper](https://arxiv.org/abs/1805.07433) | [Code](https://github.com/nuric/deeplogic) | Feed logic rules into RNN as a string |
 | 2018 | DeepProbLog: Neural Probabilistic Logic Programming | NeurIPS | [Paper](https://papers.nips.cc/paper/2018/file/dc5d637ed5e62c36ecb73b654b05ba2a-Paper.pdf) | [Code](https://github.com/ML-KULeuven/deepproblog) | Add "neural predicates" to ProbLog which is a probabilistic logic programming language. |
 
 ## Logic as Regularizer
@@ -102,16 +103,28 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2017 | Logic tensor networks for semantic image interpretation. | IJCAI | [Paper](https://arxiv.org/abs/1705.08968) | [Code](https://gitlab.fbk.eu/donadello/LTN_IJCAI17) | Logic Tensor Networks (LTNs) are an SRL framework which integrates neural networks with first-order fuzzy logic. |
 | 2017 | Semantic-based regularization for learning and inference | Artificial Intelligence | [Paper](https://www.sciencedirect.com/science/article/pii/S0004370215001344) | | A Regularizer using fuzzy logic. |
 
+## Probabilistic Logic
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2008 | Hybrid Markov Logic Networks | AAAI | [Paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-175.pdf) | | Extend Markov Logic Networks to continous space. |
+| 2007 | ProbLog: A Probabilistic Prolog and its Application in Link Discovery | IJCAI | [Paper](https://www.ijcai.org/Proceedings/07/Papers/397.pdf) | [Code](https://github.com/ML-KULeuven/problog) | ProbLog, a library for probabilistic logic programming. |
+| 2007 | Efficient Weight Learning for Markov Logic Networks | PKDD | [Paper](https://link.springer.com/chapter/10.1007/978-3-540-74976-9_21) | | weights learning of MLNs |
+| 2005 | Learning the structure of Markov logic networks | ICML | [Paper](https://dl.acm.org/doi/abs/10.1145/1102351.1102407) | | an algorithm for learning the structure of MLNs from relational databases |
+| 2005 | Discriminative Training of Markov Logic Networks | AAAI | [Paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-175.pdf) | | a discriminative approach to training MLNs |
+| 2005 | Markov Logic Networks | Springer | [Paper](https://link.springer.com/content/pdf/10.1007/s10994-006-5833-1.pdf) | | Combining Logic and Markov Networks, a classic paper. |
+
 ## Miscellaneous
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2020 | Integrating Logical Rules Into Neural Multi-Hop Reasoning for Drug Repurposing | ICML | [Paper](https://arxiv.org/abs/2007.05292) | | Logic Rules + GNN + RL |
 | 2020 | WHAT CAN NEURAL NETWORKS REASON ABOUT? | ICLR | [Paper](https://arxiv.org/pdf/1905.13211.pdf) | | How NN structured correlates with the performance on different reasoning tasks. |
 
+
 ## Platforms
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2019 | LYRICS: a General Interface Layer to Integrate Logic Inference and Deep Learning | ECML | [Paper](https://arxiv.org/abs/1903.07534) || Tensorflow, seems only in design, not implemented |
+| 2007 | ProbLog: A Probabilistic Prolog and its Application in Link Discovery | IJCAI | [Paper](https://www.ijcai.org/Proceedings/07/Papers/397.pdf) | [Code](https://github.com/ML-KULeuven/problog) | ProbLog, a library for probabilistic logic programming. |
 
 ## Tasks
 * Visual Question Answering
