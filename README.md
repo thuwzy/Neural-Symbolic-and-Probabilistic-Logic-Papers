@@ -106,6 +106,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 ## Probabilistic Logic
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2008 | Event Modeling and Recognition Using Markov Logic Networks | ECCV | [Paper](https://link.springer.com/chapter/10.1007/978-3-540-88688-4_45) | | Application of MLNs | 
 | 2008 | Hybrid Markov Logic Networks | AAAI | [Paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-175.pdf) | | Extend Markov Logic Networks to continous space. |
 | 2007 | ProbLog: A Probabilistic Prolog and its Application in Link Discovery | IJCAI | [Paper](https://www.ijcai.org/Proceedings/07/Papers/397.pdf) | [Code](https://github.com/ML-KULeuven/problog) | ProbLog, a library for probabilistic logic programming. |
 | 2007 | Efficient Weight Learning for Markov Logic Networks | PKDD | [Paper](https://link.springer.com/chapter/10.1007/978-3-540-74976-9_21) | | weights learning of MLNs |
