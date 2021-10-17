@@ -107,6 +107,12 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2020 | Integrating Logical Rules Into Neural Multi-Hop Reasoning for Drug Repurposing | ICML | [Paper](https://arxiv.org/abs/2007.05292) | | Logic Rules + GNN + RL |
 | 2020 | WHAT CAN NEURAL NETWORKS REASON ABOUT? | ICLR | [Paper](https://arxiv.org/pdf/1905.13211.pdf) | | How NN structured correlates with the performance on different reasoning tasks. |
+
+## Platforms
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2019 | LYRICS: a General Interface Layer to Integrate Logic Inference and Deep Learning | ECML | [Paper](https://arxiv.org/abs/1903.07534) || Tensorflow, seems only in design, not implemented |
+
 ## Tasks
 * Visual Question Answering
 * Knowledge Graph Reasoning
