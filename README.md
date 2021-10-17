@@ -80,6 +80,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 ### Differential Logic
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2020 | Logical Neural Networks | NeurIPS | [Paper](https://arxiv.org/abs/2006.13155) | | Transform a logic formula to NN-like. Relax Boolean to \[0,1\] | 
 | 2019 | Synthesizing datalog programs using numerical relaxation. | IJCAI | [Paper](https://arxiv.org/abs/1906.00163) | [Code](https://github.com/petablox/difflog) | Differential Datalog |
 | 2018 | Learning Explanatory Rules from Noisy Data | JAIR | [Paper](https://arxiv.org/abs/1711.04574v2) | [Code](https://github.com/ai-systems/DILP-Core) | Differentiable ILP |
 | 2017 | TensorLog: Deep Learning Meets Probabilistic Databases | arXiv | [Paper](https://arxiv.org/pdf/1707.05390.pdf) | [Code](https://github.com/TeamCohen/TensorLog) | Relax Boolean truth value to \[0,1\] |
@@ -93,7 +94,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2019 | Neural Logic Machines | ICLR | [Paper](https://arxiv.org/abs/1904.11694) | [Code](https://github.com/google/neural-logic-machines) | Logic predicates as tensors, logic rules as neural operators. |
 | 2018 | DeepProbLog: Neural Probabilistic Logic Programming | NeurIPS | [Paper](https://papers.nips.cc/paper/2018/file/dc5d637ed5e62c36ecb73b654b05ba2a-Paper.pdf) | [Code](https://github.com/ML-KULeuven/deepproblog) | Add "neural predicates" to ProbLog which is a probabilistic logic programming language. |
 
-### Logic as Regularizer
+## Logic as Regularizer
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2018 | A Semantic Loss Function for Deep Learning with Symbolic Knowledge | ICML | [Paper](https://arxiv.org/pdf/1711.11157.pdf) | [Code](https://github.com/UCLA-StarAI/Semantic-Loss/) | Semantic Loss, a continuous regularizer of logic prior. |
