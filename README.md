@@ -6,7 +6,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 
 **\[Taxonomy\]** We devide papers into several sub-areas, including
 
-* **Surveys** on Neural Symbolic and Probabilistic Logic
+* [**Surveys** on Neural Symbolic and Probabilistic Logic](#survey)
 * Logic-Enhanced Neural Networks (Neural Symbolic)
   - Neural Modular Networks
   - Logic as Regularizer
@@ -14,10 +14,10 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
   - Neural Logic Programming
 * Logic-Enhanced Probability (Probabilistic Logic)
 * Probablity-Enhanced Logic (Probabilistic Logic)
-* Theoretical Papers
+* [Theoretical Papers](#theory)
 * Tasks
 
-## Surveys
+## <span id='survey'>Surveys</span>
 | Year | Title                  | Venue | Paper                                      | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | ------------------------------------------------------------ |
 | 2021 | Neural, Symbolic and Neural-Symbolic Reasoning on Knowledge Graphs | AI Open | [Paper](https://arxiv.org/abs/2010.05446) | Take a thorough look at the development of the symbolic, neural and hybrid reasoning on knowledge graphs. |
@@ -117,7 +117,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2005 | Markov Logic Networks | Springer | [Paper](https://link.springer.com/content/pdf/10.1007/s10994-006-5833-1.pdf) | | Combining Logic and Markov Networks, a classic paper. |
 
 
-## Theory
+## <span id='theory'>Theory</span>
 | Year | Title                  | Venue | Paper                                      | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | ------------------------------------------------------------ |
 | 2019 | Logical Explanations for Deep Relational Machines Using Relevance Information | JMLR | [Paper](https://www.jmlr.org/papers/volume20/18-517/18-517.pdf) | Our interest in this paper is in the construction of symbolic explanations for predictions made by a deep neural network on DRM |
