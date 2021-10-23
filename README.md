@@ -115,6 +115,8 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2005 | Learning the structure of Markov logic networks | ICML | [Paper](https://dl.acm.org/doi/abs/10.1145/1102351.1102407) | | an algorithm for learning the structure of MLNs from relational databases |
 | 2005 | Discriminative Training of Markov Logic Networks | AAAI | [Paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-175.pdf) | | a discriminative approach to training MLNs |
 | 2005 | Markov Logic Networks | Springer | [Paper](https://link.springer.com/content/pdf/10.1007/s10994-006-5833-1.pdf) | | Combining Logic and Markov Networks, a classic paper. |
+| 2001 | Parameter Learning of Logic Programs for Symbolic-statistical Modeling | JAIR | [Paper](https://www.jair.org/index.php/jair/article/view/10291/24551) | | Wepropose a logical/mathematical framework for statistical parameter learning of parameterized logic programs, i.e. definite clause programs containing probabilistic facts with a parameterized distribution. |
+| 1992 | Probabilistic logic programming | Information and Computation | [Paper](https://www.sciencedirect.com/science/article/pii/089054019290061J) | | A formulation of Probabilistic logic programming. |
 
 
 ## <span id='theory'>Theory</span>
