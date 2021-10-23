@@ -123,6 +123,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2019 | Logical Explanations for Deep Relational Machines Using Relevance Information | JMLR | [Paper](https://www.jmlr.org/papers/volume20/18-517/18-517.pdf) | Our interest in this paper is in the construction of symbolic explanations for predictions made by a deep neural network on DRM |
 | 2018 | Exact Learning of Lightweight Description Logic Ontologies | JMLR | [Paper](https://www.jmlr.org/papers/volume18/16-256/16-256.pdf) | We study the problem of learning description logic (DL) ontologies in Angluin et al.’s framework of exact learning via queries. |
 | 2017 | Hinge-Loss Markov Random Fields and Probabilistic Soft Logic | JMLR | [Paper](https://www.jmlr.org/papers/volume18/15-631/15-631.pdf) | In this paper, we introduce two new formalisms for modeling structured data, and show that they can both capture rich structure and scale to big data. |
+| 2017 | Answering FAQs in CSPs, Probabilistic Graphical Models, Databases, Logic and Matrix Operations (Invited Talk) | STOC | [Paper](https://dl.acm.org/doi/pdf/10.1145/3055399.3079073) | A invited talk on a general framework |
 
 ## Miscellaneous
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
