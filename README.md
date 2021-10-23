@@ -106,20 +106,23 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2017 | Semantic-based regularization for learning and inference | Artificial Intelligence | [Paper](https://www.sciencedirect.com/science/article/pii/S0004370215001344) | | A Regularizer using fuzzy logic. |
 
 ## Probabilistic Logic
+### Probabilistic Logic Programming
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
-| 2008 | Event Modeling and Recognition Using Markov Logic Networks | ECCV | [Paper](https://link.springer.com/chapter/10.1007/978-3-540-88688-4_45) | | Application of MLNs | 
-| 2008 | Hybrid Markov Logic Networks | AAAI | [Paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-175.pdf) | | Extend Markov Logic Networks to continous space. |
 | 2007 | ProbLog: A Probabilistic Prolog and its Application in Link Discovery | IJCAI | [Paper](https://www.ijcai.org/Proceedings/07/Papers/397.pdf) | [Code](https://github.com/ML-KULeuven/problog) | ProbLog, a library for probabilistic logic programming. |
-| 2007 | Efficient Weight Learning for Markov Logic Networks | PKDD | [Paper](https://link.springer.com/chapter/10.1007/978-3-540-74976-9_21) | | weights learning of MLNs |
 | 2005 | Learning the structure of Markov logic networks | ICML | [Paper](https://dl.acm.org/doi/abs/10.1145/1102351.1102407) | | an algorithm for learning the structure of MLNs from relational databases |
-| 2005 | Discriminative Training of Markov Logic Networks | AAAI | [Paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-175.pdf) | | a discriminative approach to training MLNs |
-| 2005 | Markov Logic Networks | Springer | [Paper](https://link.springer.com/content/pdf/10.1007/s10994-006-5833-1.pdf) | | Combining Logic and Markov Networks, a classic paper. |
 | 2001 | Bayesian Logic Programs | | [Paper](https://arxiv.org/pdf/cs/0111058.pdf) | | Bayesian networks + Logic Program |
 | 2001 | Parameter Learning of Logic Programs for Symbolic-statistical Modeling | JAIR | [Paper](https://www.jair.org/index.php/jair/article/view/10291/24551) | | Wepropose a logical/mathematical framework for statistical parameter learning of parameterized logic programs, i.e. definite clause programs containing probabilistic facts with a parameterized distribution. |
 | 1996 | Stochastic Logic Programs | Advances in ILP | Paper | | A formulaton: Stochastic Logic Programs |
 | 1992 | Probabilistic logic programming | Information and Computation | [Paper](https://www.sciencedirect.com/science/article/pii/089054019290061J) | | A formulation of Probabilistic logic programming. |
-
+### Markov Logic Networks
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2008 | Event Modeling and Recognition Using Markov Logic Networks | ECCV | [Paper](https://link.springer.com/chapter/10.1007/978-3-540-88688-4_45) | | Application of MLNs | 
+| 2008 | Hybrid Markov Logic Networks | AAAI | [Paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-175.pdf) | | Extend Markov Logic Networks to continous space. |
+| 2007 | Efficient Weight Learning for Markov Logic Networks | PKDD | [Paper](https://link.springer.com/chapter/10.1007/978-3-540-74976-9_21) | | weights learning of MLNs |
+| 2005 | Discriminative Training of Markov Logic Networks | AAAI | [Paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-175.pdf) | | a discriminative approach to training MLNs |
+| 2005 | Markov Logic Networks | Springer | [Paper](https://link.springer.com/content/pdf/10.1007/s10994-006-5833-1.pdf) | | Combining Logic and Markov Networks, a classic paper. |
 
 ## <span id='theory'>Theory</span>
 | Year | Title                  | Venue | Paper                                      | Description                                                  |
