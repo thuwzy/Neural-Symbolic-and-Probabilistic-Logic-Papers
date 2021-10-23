@@ -116,6 +116,12 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2005 | Discriminative Training of Markov Logic Networks | AAAI | [Paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-175.pdf) | | a discriminative approach to training MLNs |
 | 2005 | Markov Logic Networks | Springer | [Paper](https://link.springer.com/content/pdf/10.1007/s10994-006-5833-1.pdf) | | Combining Logic and Markov Networks, a classic paper. |
 
+
+## Theory
+| Year | Title                  | Venue | Paper                                      | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | ------------------------------------------------------------ |
+| 2019 | Logical Explanations for Deep Relational Machines Using Relevance Information | JMLR | [Paper](https://www.jmlr.org/papers/volume20/18-517/18-517.pdf) | Our interest in this paper is in the construction of symbolic explanations for predictions made by a deep neural network on DRM |
+
 ## Miscellaneous
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
