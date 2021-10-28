@@ -15,6 +15,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 * Logic-Enhanced Probability (Probabilistic Logic)
 * Probablity-Enhanced Logic (Probabilistic Logic)
 * [Theoretical Papers](#theory)
+* [Miscellaneous](#misc)
 * Tasks
 
 ## <span id='survey'>Surveys</span>
@@ -132,7 +133,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2017 | Hinge-Loss Markov Random Fields and Probabilistic Soft Logic | JMLR | [Paper](https://www.jmlr.org/papers/volume18/15-631/15-631.pdf) | In this paper, we introduce two new formalisms for modeling structured data, and show that they can both capture rich structure and scale to big data. |
 | 2017 | Answering FAQs in CSPs, Probabilistic Graphical Models, Databases, Logic and Matrix Operations (Invited Talk) | STOC | [Paper](https://dl.acm.org/doi/pdf/10.1145/3055399.3079073) | A invited talk on a general framework |
 
-## Miscellaneous
+## <span id='misc'>Miscellaneous</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2020 | Integrating Logical Rules Into Neural Multi-Hop Reasoning for Drug Repurposing | ICML | [Paper](https://arxiv.org/abs/2007.05292) | | Logic Rules + GNN + RL |
