@@ -12,11 +12,12 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
   - Logic as Regularizer
 * Neural-Enhanced Symbolic Logic (Neural Symbolic)
   - Neural Logic Programming
-* Logic-Enhanced Probability (Probabilistic Logic)
-* Probablity-Enhanced Logic (Probabilistic Logic)
+* Probabilistic Logic
+  - [Probabilistic Logic Programming](#PLP)
+  - [Markov Logic Networks](#MLN) 
 * [Theoretical Papers](#theory)
 * [Miscellaneous](#misc)
-* Tasks
+* [Groups](#group)
 
 ## <span id='survey'>Surveys</span>
 | Year | Title                  | Venue | Paper                                      | Description                                                  |
@@ -107,7 +108,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2017 | Semantic-based regularization for learning and inference | Artificial Intelligence | [Paper](https://www.sciencedirect.com/science/article/pii/S0004370215001344) | | A Regularizer using fuzzy logic. |
 
 ## Probabilistic Logic
-### Probabilistic Logic Programming
+### <span id='PLP'>Probabilistic Logic Programming</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2007 | ProbLog: A Probabilistic Prolog and its Application in Link Discovery | IJCAI | [Paper](https://www.ijcai.org/Proceedings/07/Papers/397.pdf) | [Code](https://github.com/ML-KULeuven/problog) | ProbLog, a library for probabilistic logic programming. |
@@ -116,7 +117,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2001 | Parameter Learning of Logic Programs for Symbolic-statistical Modeling | JAIR | [Paper](https://www.jair.org/index.php/jair/article/view/10291/24551) | | Wepropose a logical/mathematical framework for statistical parameter learning of parameterized logic programs, i.e. definite clause programs containing probabilistic facts with a parameterized distribution. |
 | 1996 | Stochastic Logic Programs | Advances in ILP | Paper | | A formulaton: Stochastic Logic Programs |
 | 1992 | Probabilistic logic programming | Information and Computation | [Paper](https://www.sciencedirect.com/science/article/pii/089054019290061J) | | A formulation of Probabilistic logic programming. |
-### Markov Logic Networks
+### <span id='MLN'>Markov Logic Networks</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2008 | Event Modeling and Recognition Using Markov Logic Networks | ECCV | [Paper](https://link.springer.com/chapter/10.1007/978-3-540-88688-4_45) | | Application of MLNs | 
@@ -153,7 +154,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 * Knowledge Graph Reasoning
 * Question Answering in Natural Language: MedHop, WikiHop
 
-## Groups
+## <span id='theory'>Groups</span>
 * [Tsinghua SAIL Group](https://ml.cs.tsinghua.edu.cn/)
 * [UCLA StarAI Lab](http://starai.cs.ucla.edu/)
 * [Luc De Raedt @ KU Leuven](https://wms.cs.kuleuven.be/people/lucderaedt/)
