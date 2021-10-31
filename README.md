@@ -149,6 +149,11 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 ### <span id='rl'>Logic in Reinforcement Learning</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2021 | Off-Policy Differentiable Logic Reinforcement Learning | ECML PKDD | [Paper](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_49.pdf) | | In this paper, we proposed an Off-Policy Differentiable Logic Reinforcement Learning (OPDLRL) framework to inherit the benefits of interpretability and generalization ability in Differentiable Inductive Logic |
+| 2020 | Exploring Logic Optimizations with Reinforcement Learning and Graph Convolutional Network | MLCAD | [Paper](https://baloneymath.github.io/files/MLCAD20_ls.pdf) | [Code](https://github.com/krzhu/abcRL) | We propose a Markov decision process (MDP) formulation of the logic synthesis problem and a reinforcement learning (RL) algorithm incorporating with graph convolutional network to explore the solution search space. |
+| 2020 | Reinforcement Learning with External Knowledge by using Logical Neural Networks | IJCAI Workshop | [Paper](https://arxiv.org/abs/2103.02363) |  | We propose an integrated method that enables model-free reinforcement learning from external knowledge sources in an LNNs-based logical constrained framework such as action shielding and guide. |
+| 2019 | Transfer of Temporal Logic Formulas in Reinforcement Learning | IJCAI | [Paper](https://www.ijcai.org/Proceedings/2019/0557.pdf) |  | We first propose an inference technique to extract metric interval temporal logic (MITL) formulas in sequential disjunctive normal form from labeled trajectories collected in RL of the two tasks. |
+| 2019 | Neural Logic Reinforcement Learning | ICML | [Paper](https://arxiv.org/abs/1904.10729) | [Code](https://arxiv.org/abs/1904.10729) | We propose a novel algorithm named Neural Logic Reinforcement Learning (NLRL) to represent the policies in reinforcement learning by first-order logic. |
 
 ### <span id='nlp'>Natural Language Question Answering</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
@@ -162,6 +167,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2021 | Domiknows: A library for integration of symbolic domain knowledge in deep learning | arXiv | [Homepage](https://hlr.github.io/domiknows-nlp/) | [Code](https://github.com/HLR/DomiKnowS) | This library provides a language interface integrate Domain Knowldge in Deep Learning. |
 | 2019 | LYRICS: a General Interface Layer to Integrate Logic Inference and Deep Learning | ECML | [Paper](https://arxiv.org/abs/1903.07534) || Tensorflow, seems only in design, not implemented |
 | 2007 | ProbLog: A Probabilistic Prolog and its Application in Link Discovery | IJCAI | [Paper](https://www.ijcai.org/Proceedings/07/Papers/397.pdf) | [Code](https://github.com/ML-KULeuven/problog) | ProbLog, a library for probabilistic logic programming. |
+| | ABC: System for Sequential Logic Synthesis and Formal Verification | | [Homepage](http://people.eecs.berkeley.edu/~alanmi/abc/abc.htm) | [Code](https://github.com/berkeley-abc/abc) | System for Sequential Logic Synthesis and Formal Verification |
 
 ## Tasks
 * Visual Question Answering
