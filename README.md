@@ -160,3 +160,4 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 * [UCLA StarAI Lab](http://starai.cs.ucla.edu/)
 * [Luc De Raedt @ KU Leuven](https://wms.cs.kuleuven.be/people/lucderaedt/)
 * [Jian Tang @ Mila](https://tangjianpku.github.io/)
+* [Tirtharaj Dash @ BITS](https://tirtharajdash.github.io/)
