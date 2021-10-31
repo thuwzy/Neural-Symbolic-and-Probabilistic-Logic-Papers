@@ -7,15 +7,15 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 **\[Taxonomy\]** We devide papers into several sub-areas, including
 
 * [**Surveys** on Neural Symbolic and Probabilistic Logic](#survey)
-* Logic-Enhanced Neural Networks (Neural Symbolic)
+* [Logic-Enhanced Neural Networks (Neural Symbolic)](#logic-enhance)
   - [Modular/Concept Learning](#modular)
-    - Neural Modular Networks
-    - Concept Learning
+    - [Neural Modular Networks](#nmn)
+    - [Concept Learning](#cl)
   - [Logic as Regularizer](#regularize)
-* Neural-Enhanced Symbolic Logic (Neural Symbolic)
+* [Neural-Enhanced Symbolic Logic (Neural Symbolic)](#nn-enhance)
   - [Differential Logic](#differential)
   - [Parameterize Logic with Neural Networks](#para)
-* Probabilistic Logic
+* [Probabilistic Logic](#prob-logic)
   - [Probabilistic Logic Programming](#PLP)
   - [Markov Logic Networks](#MLN) 
 * [Theoretical Papers](#theory)
@@ -40,13 +40,13 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2011 | Statistical Relational AI: Logic, Probability and Computation | ICLP | [Paper](https://www.cs.ubc.ca/~poole/papers/SRAI-2011.pdf) | We overview the foundations of StarAI. |
 | 2005 | Dimensions of Neural-symbolic Integration — A Structured Survey | arXiv | [Paper](https://arxiv.org/abs/cs/0511042) | This work presents a comprehensive survey of the field of neural-symbolic integration. |
 
-## Logic-Enhanced Neural Networks
+## <span id='logic-enhance'>Logic-Enhanced Neural Networks</span>
 ### <span id='modular'>Modular/Concept Learning (Visual Question Answering)</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2020 | Neuro-Symbolic Visual Reasoning: Disentangling "Visual" from "Reasoning" | PMLR | [Paper](http://proceedings.mlr.press/v119/amizadeh20a.html) | [Code](https://github.com/microsoft/DFOL-VQA) | a Differentiable First-Order Logic formalism for VQA |
 | 2019 | Learning by Abstraction: The Neural State Machine | NeurIPS | [Paper](https://arxiv.org/abs/1907.03950) | | Given an image, we first predict a probabilistic graph then perform sequential reasoning over the graph. |
-#### Neural Modular Networks
+#### <span id ='nmn'>Neural Modular Networks</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2021 | Meta Module Network for Compositional Visual Reasoning | WACV ||| N2NMN application|
@@ -67,7 +67,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2017 | Inferring and Executing Programs for Visual Reasoning | ICCV ||| Basically N2NMN which refers N2NMN as "concurrent work" |
 | 2016 | Learning to Compose Neural Networks for Question Answering | NAACL  | [Paper](https://arxiv.org/abs/1601.01705) | [Code](https://github.com/jacobandreas/nmn2) | Compared to original NMN, the authors add a layout selector to select layout from several proposed candidates. |
 | 2016 | Neural Module Networks | CVPR  | [Paper](https://arxiv.org/abs/1511.02799v4) | [Code](https://github.com/jacobandreas/nmn2) | Initial paper. The authors proposed Neural Module Networks in this paper. |
-#### Concept Learning
+#### <span id='cl'>Concept Learning</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2019 | The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision | ICLR | [Paper](https://arxiv.org/pdf/1904.12584.pdf) | [Code](https://github.com/vacancy/NSCL-PyTorch-Release) | Neuro-Symbolic Concept Learner in VQA |
@@ -81,7 +81,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2017 | Logic tensor networks for semantic image interpretation. | IJCAI | [Paper](https://arxiv.org/abs/1705.08968) | [Code](https://gitlab.fbk.eu/donadello/LTN_IJCAI17) | Logic Tensor Networks (LTNs) are an SRL framework which integrates neural networks with first-order fuzzy logic. |
 | 2017 | Semantic-based regularization for learning and inference | Artificial Intelligence | [Paper](https://www.sciencedirect.com/science/article/pii/S0004370215001344) | | A Regularizer using fuzzy logic. |
 
-## Neural-Enhanced Symbolic Logic & Deep Logic
+## <span id='nn-enhance'>Neural-Enhanced Symbolic Logic & Deep Logic</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2021 | Neural-Symbolic Integration: A Compositional Perspective | AAAI | [Paper](https://www.aaai.org/AAAI21Papers/AAAI-10094.TsamouraE.pdf) |  | Treating Neural and Symbolic as black boxes to be integrated, without making assumptions on their internal structure and semantics. |
@@ -110,7 +110,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2019 | DeepLogic: Towards End-to-End Differentiable Logical Reasoning | AAAI-MAKE | [Paper](https://arxiv.org/abs/1805.07433) | [Code](https://github.com/nuric/deeplogic) | Feed logic rules into RNN as a string |
 | 2018 | DeepProbLog: Neural Probabilistic Logic Programming | NeurIPS | [Paper](https://papers.nips.cc/paper/2018/file/dc5d637ed5e62c36ecb73b654b05ba2a-Paper.pdf) | [Code](https://github.com/ML-KULeuven/deepproblog) | Add "neural predicates" to ProbLog which is a probabilistic logic programming language. |
 
-## Probabilistic Logic
+## <span id='prob-logic'>Probabilistic Logic</span>
 ### <span id='PLP'>Probabilistic Logic Programming</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
