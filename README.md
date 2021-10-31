@@ -147,6 +147,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 ## Platforms
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2021 | Domiknows: A library for integration of symbolic domain knowledge in deep learning | arXiv | [Homepage](https://hlr.github.io/domiknows-nlp/) | [Code](https://github.com/HLR/DomiKnowS) | This library provides a language interface integrate Domain Knowldge in Deep Learning. |
 | 2019 | LYRICS: a General Interface Layer to Integrate Logic Inference and Deep Learning | ECML | [Paper](https://arxiv.org/abs/1903.07534) || Tensorflow, seems only in design, not implemented |
 | 2007 | ProbLog: A Probabilistic Prolog and its Application in Link Discovery | IJCAI | [Paper](https://www.ijcai.org/Proceedings/07/Papers/397.pdf) | [Code](https://github.com/ML-KULeuven/problog) | ProbLog, a library for probabilistic logic programming. |
 
