@@ -8,15 +8,20 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 
 * [**Surveys** on Neural Symbolic and Probabilistic Logic](#survey)
 * Logic-Enhanced Neural Networks (Neural Symbolic)
-  - Neural Modular Networks
-  - Logic as Regularizer
+  - [Modular/Concept Learning](#modular)
+    - Neural Modular Networks
+    - Concept Learning
+  - [Logic as Regularizer](#regularize)
 * Neural-Enhanced Symbolic Logic (Neural Symbolic)
-  - Neural Logic Programming
+  - [Differential Logic](#differential)
+  - [Parameterize Logic with Neural Networks](#para)
 * Probabilistic Logic
   - [Probabilistic Logic Programming](#PLP)
   - [Markov Logic Networks](#MLN) 
 * [Theoretical Papers](#theory)
 * [Miscellaneous](#misc)
+  - [Logic in NLP](#nlp)
+  - [Logic in Reinforcement Learning](#rl)
 * [Groups](#group)
 
 ## <span id='survey'>Surveys</span>
@@ -35,16 +40,13 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2011 | Statistical Relational AI: Logic, Probability and Computation | ICLP | [Paper](https://www.cs.ubc.ca/~poole/papers/SRAI-2011.pdf) | We overview the foundations of StarAI. |
 | 2005 | Dimensions of Neural-symbolic Integration — A Structured Survey | arXiv | [Paper](https://arxiv.org/abs/cs/0511042) | This work presents a comprehensive survey of the field of neural-symbolic integration. |
 
-## Visual Question Answering
+## Logic-Enhanced Neural Networks
+### <span id='modular'>Modular/Concept Learning (Visual Question Answering)</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2020 | Neuro-Symbolic Visual Reasoning: Disentangling "Visual" from "Reasoning" | PMLR | [Paper](http://proceedings.mlr.press/v119/amizadeh20a.html) | [Code](https://github.com/microsoft/DFOL-VQA) | a Differentiable First-Order Logic formalism for VQA |
 | 2019 | Learning by Abstraction: The Neural State Machine | NeurIPS | [Paper](https://arxiv.org/abs/1907.03950) | | Given an image, we first predict a probabilistic graph then perform sequential reasoning over the graph. |
-### Concept Learning
-| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
-| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
-| 2019 | The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision | ICLR | [Paper](https://arxiv.org/pdf/1904.12584.pdf) | [Code](https://github.com/vacancy/NSCL-PyTorch-Release) | Neuro-Symbolic Concept Learner in VQA |
-### Neural Modular Networks
+#### Neural Modular Networks
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2021 | Meta Module Network for Compositional Visual Reasoning | WACV ||| N2NMN application|
@@ -65,13 +67,21 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2017 | Inferring and Executing Programs for Visual Reasoning | ICCV ||| Basically N2NMN which refers N2NMN as "concurrent work" |
 | 2016 | Learning to Compose Neural Networks for Question Answering | NAACL  | [Paper](https://arxiv.org/abs/1601.01705) | [Code](https://github.com/jacobandreas/nmn2) | Compared to original NMN, the authors add a layout selector to select layout from several proposed candidates. |
 | 2016 | Neural Module Networks | CVPR  | [Paper](https://arxiv.org/abs/1511.02799v4) | [Code](https://github.com/jacobandreas/nmn2) | Initial paper. The authors proposed Neural Module Networks in this paper. |
-
-## Natural Language Question Answering
+#### Concept Learning
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
-| 2020 | Measuring Compositional Generalization: A Comprehensive Method on Realistic Data | ICLR | [Paper](https://arxiv.org/abs/1912.09713) | [Code](https://github.com/google-research/google-research/tree/master/cfq) | CFQ, a large dataset of Natural Language Question Answering |
+| 2019 | The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision | ICLR | [Paper](https://arxiv.org/pdf/1904.12584.pdf) | [Code](https://github.com/vacancy/NSCL-PyTorch-Release) | Neuro-Symbolic Concept Learner in VQA |
 
-## Deep Logic
+
+### <span id='regularize'>Logic as Regularizer</span>
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2020 | A Constraint-Based Approach to Learning and Explanation | AAAI | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/5774) | [Code](https://github.com/gabrieleciravegna/Information-based-Constrained-Learning) | Learning First Order Constraints |
+| 2018 | A Semantic Loss Function for Deep Learning with Symbolic Knowledge | ICML | [Paper](https://arxiv.org/pdf/1711.11157.pdf) | [Code](https://github.com/UCLA-StarAI/Semantic-Loss/) | Semantic Loss, a continuous regularizer of logic prior. |
+| 2017 | Logic tensor networks for semantic image interpretation. | IJCAI | [Paper](https://arxiv.org/abs/1705.08968) | [Code](https://gitlab.fbk.eu/donadello/LTN_IJCAI17) | Logic Tensor Networks (LTNs) are an SRL framework which integrates neural networks with first-order fuzzy logic. |
+| 2017 | Semantic-based regularization for learning and inference | Artificial Intelligence | [Paper](https://www.sciencedirect.com/science/article/pii/S0004370215001344) | | A Regularizer using fuzzy logic. |
+
+## Neural-Enhanced Symbolic Logic & Deep Logic
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2021 | Neural-Symbolic Integration: A Compositional Perspective | AAAI | [Paper](https://www.aaai.org/AAAI21Papers/AAAI-10094.TsamouraE.pdf) |  | Treating Neural and Symbolic as black boxes to be integrated, without making assumptions on their internal structure and semantics. |
@@ -82,7 +92,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2017 | Differentiable Learning of Logical Rules for Knowledge Base Reasoning | NeurIPS | [Paper](https://proceedings.neurips.cc/paper/2017/file/0e55666a4ad822e0e34299df3591d979-Paper.pdf) | [Code](https://github.com/fanyangxyz/Neural-LP) | Neural Logic Programming, learning probabilistic first-order logical rules for knowledge base reasoning in end-to-end model. |
 | 2017 | End-to-end Differentiable Proving | NeurIPS | [Paper](https://arxiv.org/abs/1705.11040) | [Code](https://github.com/uclnlp/ntp) | We replace symbolic unification with a differentiable computation on vector representations of symbols using a radial basis function kernel. |
 
-### Differential Logic
+### <span id='differential'>Differential Logic</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2020 | Logical Neural Networks | NeurIPS | [Paper](https://arxiv.org/abs/2006.13155) | | Transform a logic formula to NN-like. Relax Boolean to \[0,1\] | 
@@ -91,7 +101,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2017 | TensorLog: Deep Learning Meets Probabilistic Databases | arXiv | [Paper](https://arxiv.org/pdf/1707.05390.pdf) | [Code](https://github.com/TeamCohen/TensorLog) | Relax Boolean truth value to \[0,1\] |
 
 
-### Parameterize Logic with Neural Networks
+### <span id='para'>Parameterize Logic with Neural Networks</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2021 | Neural Markov Logic Networks | UAI | [Paper](https://arxiv.org/abs/1905.13462) | [Code](https://github.com/GiuseppeMarra/nmln/tree/uai2021) | NMLNs are an exponential-family model for modelling distributions over possible worlds without explicit logic rules. |
@@ -99,14 +109,6 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2019 | Neural Logic Machines | ICLR | [Paper](https://arxiv.org/abs/1904.11694) | [Code](https://github.com/google/neural-logic-machines) | Logic predicates as tensors, logic rules as neural operators. |
 | 2019 | DeepLogic: Towards End-to-End Differentiable Logical Reasoning | AAAI-MAKE | [Paper](https://arxiv.org/abs/1805.07433) | [Code](https://github.com/nuric/deeplogic) | Feed logic rules into RNN as a string |
 | 2018 | DeepProbLog: Neural Probabilistic Logic Programming | NeurIPS | [Paper](https://papers.nips.cc/paper/2018/file/dc5d637ed5e62c36ecb73b654b05ba2a-Paper.pdf) | [Code](https://github.com/ML-KULeuven/deepproblog) | Add "neural predicates" to ProbLog which is a probabilistic logic programming language. |
-
-## Logic as Regularizer
-| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
-| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
-| 2020 | A Constraint-Based Approach to Learning and Explanation | AAAI | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/5774) | [Code](https://github.com/gabrieleciravegna/Information-based-Constrained-Learning) | Learning First Order Constraints |
-| 2018 | A Semantic Loss Function for Deep Learning with Symbolic Knowledge | ICML | [Paper](https://arxiv.org/pdf/1711.11157.pdf) | [Code](https://github.com/UCLA-StarAI/Semantic-Loss/) | Semantic Loss, a continuous regularizer of logic prior. |
-| 2017 | Logic tensor networks for semantic image interpretation. | IJCAI | [Paper](https://arxiv.org/abs/1705.08968) | [Code](https://gitlab.fbk.eu/donadello/LTN_IJCAI17) | Logic Tensor Networks (LTNs) are an SRL framework which integrates neural networks with first-order fuzzy logic. |
-| 2017 | Semantic-based regularization for learning and inference | Artificial Intelligence | [Paper](https://www.sciencedirect.com/science/article/pii/S0004370215001344) | | A Regularizer using fuzzy logic. |
 
 ## Probabilistic Logic
 ### <span id='PLP'>Probabilistic Logic Programming</span>
@@ -142,6 +144,16 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 | 2020 | WHAT CAN NEURAL NETWORKS REASON ABOUT? | ICLR | [Paper](https://arxiv.org/pdf/1905.13211.pdf) | | How NN structured correlates with the performance on different reasoning tasks. |
 | 2019 | Bridging Machine Learning and Logical Reasoning by Abductive Learning | NeurIPS | [Paper](http://www.lamda.nju.edu.cn/yuy/GetFile.aspx?File=papers/neurips19abl.pdf) | | machine learning model learns to perceive primitive logic facts from data, while logical reasoning can exploit symbolic domain knowledge and correct the wrongly perceived facts for improving the machine learning models |
 | 2013 | Deep relational machines | NeurIPS | [Paper](https://link.springer.com/chapter/10.1007/978-3-642-42042-9_27) | | A DRM learns the first layer of representation by inducing first order Horn clauses and the successive layers are generated by utilizing restricted Boltzmann machines. |
+
+
+### <span id='rl'>Logic in Reinforcement Learning</span>
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+
+### <span id='nlp'>Natural Language Question Answering</span>
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2020 | Measuring Compositional Generalization: A Comprehensive Method on Realistic Data | ICLR | [Paper](https://arxiv.org/abs/1912.09713) | [Code](https://github.com/google-research/google-research/tree/master/cfq) | CFQ, a large dataset of Natural Language Question Answering |
 
 
 ## Platforms
