@@ -26,6 +26,4 @@ Looking forward to your contribution!
 | 2018 | Visual Question Reasoning on General Dependency Tree | CVPR | [Link](https://openaccess.thecvf.com/content_cvpr_2018/papers/Cao_Visual_Question_Reasoning_CVPR_2018_paper.pdf) || **ACMN**, parser-NMN (DPT -> structure)|
 | 2017 | Learning to Reason: End-To-End Module Networks for Visual Question Answering | ICCV | [Link](https://openaccess.thecvf.com/content_ICCV_2017/papers/Hu_Learning_to_Reason_ICCV_2017_paper.pdf) || **N2NMN**|
 | 2017 | Inferring and Executing Programs for Visual Reasoning | ICCV ||| Basically N2NMN which refers N2NMN as "concurrent work" |
-| 2016 | Learning to Compose Neural Networks for Question Answering | NAACL  | [Link](https://arxiv.org/abs/1601.01705) | [Link](https://github.com/jacobandreas/nmn2) | Compared to original NMN, the authors add a layout selector to select layout from several proposed candidates. |
-| 2016 | Neural Module Networks | CVPR  | [Link](https://arxiv.org/abs/1511.02799v4) | [Link](https://github.com/jacobandreas/nmn2) | Initial paper. The authors proposed Neural Module Networks in this paper. |
 
