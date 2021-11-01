@@ -49,22 +49,22 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 #### <span id ='nmn'>Neural Modular Networks</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
-| 2021 | Meta Module Network for Compositional Visual Reasoning | WACV ||| N2NMN application|
-| 2020 | Neural Module Networks for Reasoning over Text | ICLR ||| **TMN**, parser-NMN application|
-| 2020 | Learning to Discretely Compose Reasoning Module Networks for Video Captioning | arXiv ||| **RMN**, N2NMN application|
-| 2020 | LRTA: A Transparent Neural-symbolic Reasoning Framework with Modular Supervision for VQA | arXiv ||| N2NMN application|
+| 2021 | Meta Module Network for Compositional Visual Reasoning | WACV | [Paper](https://arxiv.org/pdf/1910.03230) | [Code](https://github.com/wenhuchen/Meta-Module-Network) | N2NMN application|
+| 2020 | Neural Module Networks for Reasoning over Text | ICLR | [Paper](https://arxiv.org/pdf/1912.04971) | [Code](https://github.com/nitishgupta/nmn-drop) | **TMN**, parser-NMN application|
+| 2020 | Learning to Discretely Compose Reasoning Module Networks for Video Captioning | arXiv | [Paper](https://arxiv.org/pdf/2007.09049) | [Code](https://github.com/tgc1997/RMN) | **RMN**, N2NMN application|
+| 2020 | LRTA: A Transparent Neural-symbolic Reasoning Framework with Modular Supervision for VQA | arXiv | [Paper](https://arxiv.org/pdf/2011.10731) || N2NMN application|
 | 2019 | Self-Assembling Modular Networks for Interpretable Multi-hop Reasoning | arXiv | [Paper](https://arxiv.org/abs/1909.05803) | [Code](https://github.com/jiangycTarheel/NMN-MultiHopQA) | N2NMN application|
 | 2019 | Probabilistic Neural-Symbolic Models for Interpretable Visual Question Answering | ICML  | [Paper](https://arxiv.org/abs/1902.07864) | [Code](https://github.com/kdexd/probnmn-clevr) | The author proposed **ProbNMN**, using variational method to generate reasoning graph. |
-| 2019 | Explainable and Explicit Visual Reasoning over Scene Graphs | CVPR ||| **XNM**, N2NMN + scene graph|
-| 2019 | Learning to Assemble Neural Module Tree Networks for Visual Grounding | ICCV ||| **NMTree**, parser-NMN application|
-| 2019 | Structure Learning for Neural Module Networks | EACL ||| **LNMN**, follows Stack-NMN to add learnable (soft) modules|
-| 2018 | Explainable Neural Computation via Stack Neural Module Networks | ECCV ||| **Stack-NMN**, N2NMN + differentiable memory stack + soft program execution |
-| 2018 | Neural-Symbolic VQA: Disentangling Reasoning from Vision and Language Understanding | arXiv ||| **NS-VQA**, N2NMN + scene graph|
+| 2019 | Explainable and Explicit Visual Reasoning over Scene Graphs | CVPR | [Paper](https://arxiv.org/pdf/1812.01855) | [Code](https://github.com/shijx12/XNM-Net) | **XNM**, N2NMN + scene graph|
+| 2019 | Learning to Assemble Neural Module Tree Networks for Visual Grounding | ICCV | [Paper](https://arxiv.org/pdf/1812.03299.pdf) | [Code](https://github.com/daqingliu/NMTree) | **NMTree**, parser-NMN application|
+| 2019 | Structure Learning for Neural Module Networks | EACL | [Paper](https://arxiv.org/pdf/1905.11532.pdf) || **LNMN**, follows Stack-NMN to add learnable (soft) modules|
+| 2018 | Explainable Neural Computation via Stack Neural Module Networks | ECCV |[Paper](https://arxiv.org/pdf/1807.08556) | [Code](https://github.com/ronghanghu/snmn) | **Stack-NMN**, N2NMN + differentiable memory stack + soft program execution |
+| 2018 | Neural-Symbolic VQA: Disentangling Reasoning from Vision and Language Understanding | arXiv | [Paper](https://arxiv.org/pdf/1810.02338) | [Code](https://github.com/kexinyi/ns-vqa) | **NS-VQA**, N2NMN + scene graph|
 | 2018 | Compositional Models for VQA: Can Neural Module Networks Really Count? | BICA | [Paper](https://www.sciencedirect.com/science/article/pii/S1877050918323986) || interesting (negative) result of N2NMN |
-| 2018 | Transparency by Design: Closing the Gap between Performance and Interpretability in Visual Reasoning | CVPR | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Mascharka_Transparency_by_Design_CVPR_2018_paper.pdf) || **TbD**, soft modules / structures|
-| 2018 | Visual Question Reasoning on General Dependency Tree | CVPR | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Cao_Visual_Question_Reasoning_CVPR_2018_paper.pdf) || **ACMN**, parser-NMN (DPT -> structure)|
-| 2017 | Learning to Reason: End-To-End Module Networks for Visual Question Answering | ICCV | [Paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Hu_Learning_to_Reason_ICCV_2017_paper.pdf) || **N2NMN**|
-| 2017 | Inferring and Executing Programs for Visual Reasoning | ICCV ||| Basically N2NMN which refers N2NMN as "concurrent work" |
+| 2018 | Transparency by Design: Closing the Gap between Performance and Interpretability in Visual Reasoning | CVPR | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Mascharka_Transparency_by_Design_CVPR_2018_paper.pdf) | [Code](https://github.com/davidmascharka/tbd-nets) | **TbD**, soft modules / structures|
+| 2018 | Visual Question Reasoning on General Dependency Tree | CVPR | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Cao_Visual_Question_Reasoning_CVPR_2018_paper.pdf) |[Code](https://github.com/bezorro/ACMN-Pytorch) | **ACMN**, parser-NMN (DPT -> structure)|
+| 2017 | Learning to Reason: End-To-End Module Networks for Visual Question Answering | ICCV | [Paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Hu_Learning_to_Reason_ICCV_2017_paper.pdf) |[Code](https://github.com/ronghanghu/n2nmn) | **N2NMN**|
+| 2017 | Inferring and Executing Programs for Visual Reasoning | ICCV | [Paper](https://arxiv.org/pdf/1705.03633) | [Code](https://github.com/facebookresearch/clevr-iep)| Basically N2NMN which refers N2NMN as "concurrent work" |
 | 2016 | Learning to Compose Neural Networks for Question Answering | NAACL  | [Paper](https://arxiv.org/abs/1601.01705) | [Code](https://github.com/jacobandreas/nmn2) | Compared to original NMN, the authors add a layout selector to select layout from several proposed candidates. |
 | 2016 | Neural Module Networks | CVPR  | [Paper](https://arxiv.org/abs/1511.02799v4) | [Code](https://github.com/jacobandreas/nmn2) | Initial paper. The authors proposed Neural Module Networks in this paper. |
 #### <span id='cl'>Concept Learning</span>
