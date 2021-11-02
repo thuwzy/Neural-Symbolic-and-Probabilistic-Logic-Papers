@@ -42,10 +42,6 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 
 ## <span id='logic-enhance'>Logic-Enhanced Neural Networks</span>
 ### <span id='modular'>Modular/Concept Learning (Visual Question Answering)</span>
-| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
-| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
-| 2020 | Neuro-Symbolic Visual Reasoning: Disentangling "Visual" from "Reasoning" | PMLR | [Paper](http://proceedings.mlr.press/v119/amizadeh20a.html) | [Code](https://github.com/microsoft/DFOL-VQA) | a Differentiable First-Order Logic formalism for VQA |
-| 2019 | Learning by Abstraction: The Neural State Machine | NeurIPS | [Paper](https://arxiv.org/abs/1907.03950) | | Given an image, we first predict a probabilistic graph then perform sequential reasoning over the graph. |
 #### <span id ='nmn'>Neural Modular Networks</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
@@ -70,8 +66,13 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by
 #### <span id='cl'>Concept Learning</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2021 | Calibrating Concepts and Operations: Towards Symbolic Reasoning on Real Images | ICCV | [Paper](https://arxiv.org/pdf/2110.00519.pdf) | [Code](https://github.com/Lizw14/CaliCO) | we introduce an executor with learnable concept embedding magnitudes for handling distribution imbalance, and an operation calibrator for highlighting important operations and suppressing redundant ones | 
 | 2019 | The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision | ICLR | [Paper](https://arxiv.org/pdf/1904.12584.pdf) | [Code](https://github.com/vacancy/NSCL-PyTorch-Release) | Neuro-Symbolic Concept Learner in VQA |
-
+#### Others
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2020 | Neuro-Symbolic Visual Reasoning: Disentangling "Visual" from "Reasoning" | PMLR | [Paper](http://proceedings.mlr.press/v119/amizadeh20a.html) | [Code](https://github.com/microsoft/DFOL-VQA) | a Differentiable First-Order Logic formalism for VQA |
+| 2019 | Learning by Abstraction: The Neural State Machine | NeurIPS | [Paper](https://arxiv.org/abs/1907.03950) | | Given an image, we first predict a probabilistic graph then perform sequential reasoning over the graph. |
 
 ### <span id='regularize'>Logic as Regularizer</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
