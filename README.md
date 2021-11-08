@@ -2,7 +2,7 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A curated list of papers on Neural Symbolic and Probabilistic Logic. Inspired by [this repo](https://github.com/safe-graph/graph-adversarial-learning-literature). Papers are sorted by their uploaded dates in descending order. Each paper is with a description of a few words. Welcome to your contribution!
+A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are sorted by their uploaded dates in descending order. Each paper is with a description of a few words. Welcome to your contribution!
 
 **\[Taxonomy\]** We devide papers into several sub-areas, including
 
