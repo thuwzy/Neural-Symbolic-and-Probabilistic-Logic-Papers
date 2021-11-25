@@ -91,16 +91,6 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 | 2021 | Knowledge Neurons in Pretrained Transformers | arXiv | [Paper](https://arxiv.org/pdf/2104.08696.pdf) | | We explore how implicit knowledge is stored in pretrained Transformers by introducing the concept of *knowledge neurons*. |
 
 ## <span id='nn-enhance'>Neural-Enhanced Symbolic Logic & Deep Logic</span>
-| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
-| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
-| 2021 | Neural-Symbolic Integration: A Compositional Perspective | AAAI | [Paper](https://www.aaai.org/AAAI21Papers/AAAI-10094.TsamouraE.pdf) |  | Treating Neural and Symbolic as black boxes to be integrated, without making assumptions on their internal structure and semantics. |
-| 2020 | Relational Neural Machines | ECAI | [Paper](https://arxiv.org/abs/2002.02193) | | Relational Neural Machines, a novel framework allowing to jointly train the parameters of the learners and of a First–Order Logic based reasoner. |
-| 2020 | Closed Loop Neural-Symbolic Learning via Integrating Neural Perception, Grammar Parsing, and Symbolic Reasoning | ICML | [Paper](https://liqing-ustc.github.io/NGS/) | [Code](https://github.com/liqing-ustc/NGS) | NGS, (1) introducing the grammar model as a symbolic prior, (2) proposing a novel back-search algorithm to propagate the error through the symbolic reasoning module efficiently. |
-| 2019 | NLProlog: Reasoning with Weak Unification for Question Answering in Natural Language | ACL | [Paper](https://arxiv.org/abs/1906.06187) |  | A Prolog prover which we extend to utilize a similarity function over pretrained sentence encoders. |
-| 2018 | Lifted relational neural networks: Efficient learning of latent relational structures. | JAIR | [Paper](http://oucsace.cs.ohio.edu/~chelberg/classes/680/paperPresentations/lifted_relational_neural_networks.pdf) | | Combine the interpretability and expressive power of first order logic with the effectiveness of neural network learning. |
-| 2017 | Differentiable Learning of Logical Rules for Knowledge Base Reasoning | NeurIPS | [Paper](https://proceedings.neurips.cc/paper/2017/file/0e55666a4ad822e0e34299df3591d979-Paper.pdf) | [Code](https://github.com/fanyangxyz/Neural-LP) | Neural Logic Programming, learning probabilistic first-order logical rules for knowledge base reasoning in end-to-end model. |
-| 2017 | End-to-end Differentiable Proving | NeurIPS | [Paper](https://arxiv.org/abs/1705.11040) | [Code](https://github.com/uclnlp/ntp) | We replace symbolic unification with a differentiable computation on vector representations of symbols using a radial basis function kernel. |
-
 ### <span id='differential'>Differential Logic</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
@@ -109,7 +99,8 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 | 2019 | SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver | ICML | [Paper](http://proceedings.mlr.press/v97/wang19e/wang19e.pdf) | [Code](https://github.com/locuslab/SATNet) | Differential SAT |
 | 2018 | Learning Explanatory Rules from Noisy Data | JAIR | [Paper](https://arxiv.org/abs/1711.04574v2) | [Code](https://github.com/ai-systems/DILP-Core) | Differentiable ILP |
 | 2017 | TensorLog: Deep Learning Meets Probabilistic Databases | arXiv | [Paper](https://arxiv.org/pdf/1707.05390.pdf) | [Code](https://github.com/TeamCohen/TensorLog) | Relax Boolean truth value to \[0,1\] |
-
+| 2017 | Differentiable Learning of Logical Rules for Knowledge Base Reasoning | NeurIPS | [Paper](https://proceedings.neurips.cc/paper/2017/file/0e55666a4ad822e0e34299df3591d979-Paper.pdf) | [Code](https://github.com/fanyangxyz/Neural-LP) | Neural Logic Programming, learning probabilistic first-order logical rules for knowledge base reasoning in end-to-end model. |
+| 2017 | End-to-end Differentiable Proving | NeurIPS | [Paper](https://arxiv.org/abs/1705.11040) | [Code](https://github.com/uclnlp/ntp) | We replace symbolic unification with a differentiable computation on vector representations of symbols using a radial basis function kernel. |
 
 ### <span id='para'>Parameterize Logic with Neural Networks</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
@@ -119,6 +110,15 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 | 2019 | Neural Logic Machines | ICLR | [Paper](https://arxiv.org/abs/1904.11694) | [Code](https://github.com/google/neural-logic-machines) | Logic predicates as tensors, logic rules as neural operators. |
 | 2019 | DeepLogic: Towards End-to-End Differentiable Logical Reasoning | AAAI-MAKE | [Paper](https://arxiv.org/abs/1805.07433) | [Code](https://github.com/nuric/deeplogic) | Feed logic rules into RNN as a string |
 | 2018 | DeepProbLog: Neural Probabilistic Logic Programming | NeurIPS | [Paper](https://papers.nips.cc/paper/2018/file/dc5d637ed5e62c36ecb73b654b05ba2a-Paper.pdf) | [Code](https://github.com/ML-KULeuven/deepproblog) | Add "neural predicates" to ProbLog which is a probabilistic logic programming language. |
+
+### Others
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2021 | Neural-Symbolic Integration: A Compositional Perspective | AAAI | [Paper](https://www.aaai.org/AAAI21Papers/AAAI-10094.TsamouraE.pdf) |  | Treating Neural and Symbolic as black boxes to be integrated, without making assumptions on their internal structure and semantics. |
+| 2020 | Relational Neural Machines | ECAI | [Paper](https://arxiv.org/abs/2002.02193) | | Relational Neural Machines, a novel framework allowing to jointly train the parameters of the learners and of a First–Order Logic based reasoner. |
+| 2020 | Closed Loop Neural-Symbolic Learning via Integrating Neural Perception, Grammar Parsing, and Symbolic Reasoning | ICML | [Paper](https://liqing-ustc.github.io/NGS/) | [Code](https://github.com/liqing-ustc/NGS) | NGS, (1) introducing the grammar model as a symbolic prior, (2) proposing a novel back-search algorithm to propagate the error through the symbolic reasoning module efficiently. |
+| 2019 | NLProlog: Reasoning with Weak Unification for Question Answering in Natural Language | ACL | [Paper](https://arxiv.org/abs/1906.06187) |  | A Prolog prover which we extend to utilize a similarity function over pretrained sentence encoders. |
+| 2018 | Lifted relational neural networks: Efficient learning of latent relational structures. | JAIR | [Paper](http://oucsace.cs.ohio.edu/~chelberg/classes/680/paperPresentations/lifted_relational_neural_networks.pdf) | | Combine the interpretability and expressive power of first order logic with the effectiveness of neural network learning. |
 
 ## <span id='prob-logic'>Probabilistic Logic</span>
 ### <span id='PLP'>Probabilistic Logic Programming</span>
