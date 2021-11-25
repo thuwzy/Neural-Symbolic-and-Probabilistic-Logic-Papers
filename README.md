@@ -15,6 +15,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 * [Neural-Enhanced Symbolic Logic (Neural Symbolic)](#nn-enhance)
   - [Differential Logic](#differential)
   - [Parameterize Logic with Neural Networks](#para)
+  - [Extract Logic Rules from Neural Networks](#extract)
 * [Probabilistic Logic](#prob-logic)
   - [Probabilistic Logic Programming](#PLP)
   - [Markov Logic Networks](#MLN) 
@@ -82,6 +83,12 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 | 2017 | Logic tensor networks for semantic image interpretation. | IJCAI | [Paper](https://arxiv.org/abs/1705.08968) | [Code](https://gitlab.fbk.eu/donadello/LTN_IJCAI17) | Logic Tensor Networks (LTNs) are an SRL framework which integrates neural networks with first-order fuzzy logic. |
 | 2017 | Semantic-based regularization for learning and inference | Artificial Intelligence | [Paper](https://www.sciencedirect.com/science/article/pii/S0004370215001344) | | A Regularizer using fuzzy logic. |
 | 2016 | Harnessing Deep Neural Networks with Logic Rules | ACL | [Paper](https://arxiv.org/pdf/1603.06318.pdf) | | We propose a general framework capable of enhancing various types of neural networks (e.g., CNNs and RNNs) with declarative first-order logic rules. |
+
+### <span id='extract'>Extract Logic Rules from Neural Networks</span>
+| Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
+| ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
+| 2021 | Acquisition of Chess Knowledge in AlphaZero | arXiv| [Paper](https://arxiv.org/pdf/2111.09259.pdf) | | In this work we provide evidence that human knowledge is acquired by the AlphaZero neural network as it trains on the game of chess. |
+| 2021 | Knowledge Neurons in Pretrained Transformers | arXiv | [Paper](https://arxiv.org/pdf/2104.08696.pdf) | | We explore how implicit knowledge is stored in pretrained Transformers by introducing the concept of *knowledge neurons*. |
 
 ## <span id='nn-enhance'>Neural-Enhanced Symbolic Logic & Deep Logic</span>
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
