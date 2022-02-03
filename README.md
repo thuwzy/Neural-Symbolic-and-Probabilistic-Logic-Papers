@@ -178,15 +178,15 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 | 2019 | LYRICS: a General Interface Layer to Integrate Logic Inference and Deep Learning | ECML | [Paper](https://arxiv.org/abs/1903.07534) || Tensorflow, seems only in design, not implemented |
 | 2007 | ProbLog: A Probabilistic Prolog and its Application in Link Discovery | IJCAI | [Paper](https://www.ijcai.org/Proceedings/07/Papers/397.pdf) | [Code](https://github.com/ML-KULeuven/problog) | ProbLog, a library for probabilistic logic programming. |
 | | ABC: System for Sequential Logic Synthesis and Formal Verification | | [Homepage](http://people.eecs.berkeley.edu/~alanmi/abc/abc.htm) | [Code](https://github.com/berkeley-abc/abc) | System for Sequential Logic Synthesis and Formal Verification |
-
+<!-- 
 ## Tasks
 * Visual Question Answering
 * Knowledge Graph Reasoning
-* Question Answering in Natural Language: MedHop, WikiHop
-
+* Question Answering in Natural Language: MedHop, WikiHop -->
+<!-- 
 ## <span id='theory'>Groups</span>
 * [Tsinghua SAIL Group](https://ml.cs.tsinghua.edu.cn/)
 * [UCLA StarAI Lab](http://starai.cs.ucla.edu/)
 * [Luc De Raedt @ KU Leuven](https://wms.cs.kuleuven.be/people/lucderaedt/)
 * [Jian Tang @ Mila](https://tangjianpku.github.io/)
-* [Tirtharaj Dash @ BITS](https://tirtharajdash.github.io/)
+* [Tirtharaj Dash @ BITS](https://tirtharajdash.github.io/) -->
