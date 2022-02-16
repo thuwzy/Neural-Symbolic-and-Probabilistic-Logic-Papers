@@ -39,7 +39,6 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 | 2019 | Neural-symbolic computing: An effective methodology for principled integration of machine learning and reasoning | Journal of Applied Logic | [Paper](https://arxiv.org/pdf/1905.06088.pdf) | We survey recent accomplishments of neural-symbolic computing as a principled methodology for integrated machine learning and reasoning. | 
 | 2017 | Neural-Symbolic Learning and Reasoning: A Survey and Interpretation | arXiv | [Paper](https://arxiv.org/pdf/1711.03902.pdf) | Reviews personal ideas and views of several researchers on neural-symbolic learning and reasoning. |
 | 2011 | Statistical Relational AI: Logic, Probability and Computation | ICLP | [Paper](https://www.cs.ubc.ca/~poole/papers/SRAI-2011.pdf) | We overview the foundations of StarAI. |
-| 2005 | Dimensions of Neural-symbolic Integration — A Structured Survey | arXiv | [Paper](https://arxiv.org/abs/cs/0511042) | This work presents a comprehensive survey of the field of neural-symbolic integration. |
 
 ## <span id='logic-enhance'>Logic-Enhanced Neural Networks</span>
 ### <span id='modular'>Modular/Concept Learning (Visual Question Answering)</span>
@@ -69,6 +68,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2021 | Calibrating Concepts and Operations: Towards Symbolic Reasoning on Real Images | ICCV | [Paper](https://arxiv.org/pdf/2110.00519.pdf) | [Code](https://github.com/Lizw14/CaliCO) | we introduce an executor with learnable concept embedding magnitudes for handling distribution imbalance, and an operation calibrator for highlighting important operations and suppressing redundant ones | 
 | 2019 | The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision | ICLR | [Paper](https://arxiv.org/pdf/1904.12584.pdf) | [Code](https://github.com/vacancy/NSCL-PyTorch-Release) | Neuro-Symbolic Concept Learner in VQA |
+| 2017 | β-VAE: Learning Basiz Visual Concept With A Constrained Variational Framework | ICLR | [Paper](https://openreview.net/pdf?id=Sy2fzU9gl) | | Automated discovery of interpretable factorised latent representations from raw image |
 #### Others
 | Year | Title                  | Venue | Paper                                      | Code     | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
@@ -177,7 +177,6 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 | 2021 | Domiknows: A library for integration of symbolic domain knowledge in deep learning | arXiv | [Homepage](https://hlr.github.io/domiknows-nlp/) | [Code](https://github.com/HLR/DomiKnowS) | This library provides a language interface integrate Domain Knowldge in Deep Learning. |
 | 2019 | LYRICS: a General Interface Layer to Integrate Logic Inference and Deep Learning | ECML | [Paper](https://arxiv.org/abs/1903.07534) || Tensorflow, seems only in design, not implemented |
 | 2007 | ProbLog: A Probabilistic Prolog and its Application in Link Discovery | IJCAI | [Paper](https://www.ijcai.org/Proceedings/07/Papers/397.pdf) | [Code](https://github.com/ML-KULeuven/problog) | ProbLog, a library for probabilistic logic programming. |
-| | ABC: System for Sequential Logic Synthesis and Formal Verification | | [Homepage](http://people.eecs.berkeley.edu/~alanmi/abc/abc.htm) | [Code](https://github.com/berkeley-abc/abc) | System for Sequential Logic Synthesis and Formal Verification |
 <!-- 
 ## Tasks
 * Visual Question Answering
