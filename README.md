@@ -90,6 +90,7 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 | ---- | ---------------------- | ----- | ------------------------------------------ | -------- | ------------------------------------------------------------ |
 | 2021 | Acquisition of Chess Knowledge in AlphaZero | arXiv| [Paper](https://arxiv.org/pdf/2111.09259.pdf) | | In this work we provide evidence that human knowledge is acquired by the AlphaZero neural network as it trains on the game of chess. |
 | 2021 | Knowledge Neurons in Pretrained Transformers | arXiv | [Paper](https://arxiv.org/pdf/2104.08696.pdf) | | We explore how implicit knowledge is stored in pretrained Transformers by introducing the concept of *knowledge neurons*. |
+| 2019 | Logical Explanations for Deep Relational Machines Using Relevance Information | JMLR | [Paper](https://www.jmlr.org/papers/v20/18-517.html) | | This work provides a methodology to generate symbolic explanations for predictions made by a deep neural network constructed from relational data, called [DRMs](https://link.springer.com/chapter/10.1007/978-3-319-99960-9_2). It investigates the use of a Bayes-like approach to identify logical proxies for local predictions of a DRM. |
 
 ## <span id='nn-enhance'>Neural-Enhanced Symbolic Logic & Deep Logic</span>
 ### <span id='differential'>Differential Logic</span>
