@@ -23,7 +23,6 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 * [Miscellaneous](#misc)
   - [Logic in NLP](#nlp)
   - [Logic in Reinforcement Learning](#rl)
-* [Groups](#group)
 
 ## <span id='survey'>Surveys</span>
 | Year | Title                  | Venue | Paper                                      | Description                                                  |
