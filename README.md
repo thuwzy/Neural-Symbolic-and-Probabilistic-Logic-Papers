@@ -24,6 +24,8 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
   - [Logic in NLP](#nlp)
   - [Logic in Reinforcement Learning](#rl)
 
+![Taxonomy](https://github.com/thuwzy/Neural-Symbolic-and-Probabilistic-Logic-Papers/blob/main/progic.png)
+
 ## <span id='survey'>Surveys</span>
 | Year | Title                  | Venue | Paper                                      | Description                                                  |
 | ---- | ---------------------- | ----- | ------------------------------------------ | ------------------------------------------------------------ |
@@ -40,6 +42,8 @@ A curated list of papers on Neural Symbolic and Probabilistic Logic. Papers are 
 | 2019 | Neural-symbolic computing: An effective methodology for principled integration of machine learning and reasoning | Journal of Applied Logic | [Paper](https://arxiv.org/pdf/1905.06088.pdf) | We survey recent accomplishments of neural-symbolic computing as a principled methodology for integrated machine learning and reasoning. | 
 | 2017 | Neural-Symbolic Learning and Reasoning: A Survey and Interpretation | arXiv | [Paper](https://arxiv.org/pdf/1711.03902.pdf) | Reviews personal ideas and views of several researchers on neural-symbolic learning and reasoning. |
 | 2011 | Statistical Relational AI: Logic, Probability and Computation | ICLP | [Paper](https://www.cs.ubc.ca/~poole/papers/SRAI-2011.pdf) | We overview the foundations of StarAI. |
+
+
 
 ## <span id='logic-enhance'>Logic-Enhanced Neural Networks</span>
 ### <span id='modular'>Modular/Concept Learning (Visual Question Answering)</span>
